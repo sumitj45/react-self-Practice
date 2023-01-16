@@ -7,26 +7,16 @@ import './App.css';
 
 function App() {
 
-    return (
-
-
-        <
+    return ( <
         div >
-
         <
         h1 > Hello < /h1> <
         input class = "input-group-text"
         type = "text"
         placeholder = "Enter your Name" > < /input> <
-        button class = "btn btn-primary" > Enter < /button>
-
-        <
-        /div>
-
-
-
+        button class = "btn btn-primary" > Enter < /button> <
+        /div>    
     );
-
 }
 
 export default App;
