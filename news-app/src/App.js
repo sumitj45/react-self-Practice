@@ -9,19 +9,15 @@ function App() {
 
     return (
 
+ 
 
-        <
-        div >
+  <div>
+    
+  <h1>Hello</h1>
+  <input class="input-group-text" type="text" placeholder="Enter your Name"></input>
+  <button class="btn btn-primary">Enter</button>
 
-        <
-        h1 > Hello < /h1> <
-        input class = "input-group-text"
-        type = "text"
-        placeholder = "Enter your Name" > < /input> <
-        button class = "btn btn-primary" > Enter < /button>
-
-        <
-        /div>
+  </div>
 
 
 
