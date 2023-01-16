@@ -6,40 +6,26 @@ import './App.css';
 
 
 function App() {
-    const bgDefaultColour = "red";
-    const [bg, setBg] = useState(bgDefaultColour);
-    const [name, setName] = useState("click me");
-    const [change, setChange] = useState("btn btn-success");
 
-    const bgChange = () => {
+    return (
 
-        const newBg = "#8e44ad";
-        setBg(newBg);
-        setName("Fuck U 🤌 ");
-
-    }
-
-    const bgBack = () => {
-        const color = "lightblue"
-        setBg(color);
-        setName("Oops 😯 ");
-        setChange("btn btn-primary")
-
-    }
-
-    return ( <
-        div style = {
-            { backgroundColour: bg } } >
 
         <
-        button className = { change }
-        onClick = { bgChange }
-        onDoubleClick = { bgBack } > { name } < /button>
+        div >
+
+        <
+        h1 > Hello < /h1> <
+        input class = "input-group-text"
+        type = "text"
+        placeholder = "Enter your Name" > < /input> <
+        button class = "btn btn-primary" > Enter < /button>
 
         <
         /div>
-    );
 
+
+
+    );
 
 }
 
