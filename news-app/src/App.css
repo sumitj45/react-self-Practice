@@ -46,3 +46,19 @@ div {
     justify-content: center;
     background-color: lightblue;
 }
+
+h1 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+h5 {
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
